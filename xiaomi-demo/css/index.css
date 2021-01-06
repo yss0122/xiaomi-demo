@@ -1,0 +1,477 @@
+@charset "UTF-8";
+.top-banner {
+  background: url(https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/bb3c06a430689ba2357dd7d1fbfa6bab.jpg?w=5120&h=120) no-repeat 50%;
+  width: 100%;
+  height: 120px;
+  display: block;
+  background-size: auto 120px; }
+
+.logo-1212 {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 70px; }
+
+.goods-kinds {
+  width: 100%;
+  margin-top: 20px; }
+  .goods-kinds li .good-text {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    text-indent: 28px;
+    font-size: 14px;
+    color: white;
+    position: relative;
+    cursor: pointer; }
+    .goods-kinds li .good-text span {
+      font-size: 13px;
+      position: absolute;
+      right: 24px; }
+
+.home-banner-box {
+  width: 100%;
+  height: 460px;
+  overflow: hidden;
+  position: relative; }
+  .home-banner-box .home-banner-list {
+    width: 1226px;
+    position: relative;
+    height: 100%; }
+    .home-banner-box .home-banner-list li {
+      width: 1226px;
+      height: 100%;
+      position: absolute;
+      top: 0;
+      left: 0; }
+      .home-banner-box .home-banner-list li img {
+        width: 100%; }
+
+.banner-point {
+  position: absolute;
+  right: 20px;
+  bottom: 20px; }
+  .banner-point li {
+    width: 10px;
+    height: 10px;
+    border: 3px solid black;
+    float: left;
+    margin: 0 5px;
+    cursor: pointer; }
+  .banner-point li.active {
+    background-color: black; }
+
+.banner-btn_left, .banner-btn_right {
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+  background-color: #303131; }
+
+.banner-btn_left {
+  position: absolute;
+  left: 274px;
+  top: 205px; }
+
+.banner-btn_right {
+  position: absolute;
+  right: 40px;
+  top: 205px; }
+
+.home-hero {
+  width: 100%;
+  height: 170px;
+  margin-top: 14px; }
+  .home-hero .home-channel {
+    float: left;
+    width: 234px;
+    height: 100%;
+    background-color: #5f5750; }
+    .home-hero .home-channel li {
+      width: 78px;
+      height: 66px;
+      border-left: 1px solid #665e57;
+      float: left;
+      margin: 10px auto;
+      text-align: center;
+      color: #cfccca; }
+      .home-hero .home-channel li span {
+        margin-top: 10px;
+        display: block; }
+      .home-hero .home-channel li:hover {
+        color: white; }
+
+.home-promo {
+  float: left; }
+  .home-promo ul {
+    height: 100%;
+    margin-left: 14px;
+    display: flex;
+    justify-content: space-between;
+    width: 978px; }
+    .home-promo ul li {
+      width: 316px;
+      height: 100%;
+      float: left; }
+      .home-promo ul li img {
+        height: 100%;
+        width: 100%; }
+
+.matter {
+  background-color: #f5f5f5;
+  width: 100%;
+  margin-top: 26px;
+  position: relative;
+  height: 6000px; }
+
+.rob-buy {
+  width: 100%;
+  position: relative; }
+  .rob-buy h2 {
+    line-height: 62px;
+    font-size: 22px;
+    font-family: "宋体";
+    float: left;
+    clear: both; }
+  .rob-buy .banner-btns {
+    float: right;
+    font-size: 0;
+    margin-top: 28px;
+    margin-bottom: 12px; }
+    .rob-buy .banner-btns span {
+      width: 32px;
+      height: 22px;
+      display: inline-block;
+      text-align: center;
+      line-height: 22px;
+      border: 1px solid #e0e0e0;
+      color: #b0b2ba;
+      font-size: 12px; }
+  .rob-buy .meter-look {
+    width: 234px;
+    height: 340px;
+    clear: both;
+    background-color: #f1eded;
+    text-align: center;
+    border-top: 1px solid #ef3a3b;
+    float: left; }
+    .rob-buy .meter-look h3 {
+      font-size: 16px;
+      padding-top: 60px;
+      color: #ef3a3b; }
+    .rob-buy .meter-look i {
+      font-size: 54px;
+      margin-top: 28px;
+      display: block;
+      color: #ef3a3b; }
+    .rob-buy .meter-look p {
+      font-size: 14px;
+      margin-top: 28px; }
+    .rob-buy .meter-look .meter-time {
+      font-size: 18px;
+      line-height: 46px;
+      height: 46px;
+      margin-top: 32px; }
+      .rob-buy .meter-look .meter-time span {
+        width: 46px;
+        height: 100%;
+        background-color: #605751;
+        display: inline-block;
+        color: white; }
+
+.good-list {
+  width: 980px;
+  height: 340px;
+  position: absolute;
+  right: 0px;
+  top: 62px;
+  overflow: hidden; }
+  .good-list ul {
+    position: absolute;
+    left: -7px; }
+    .good-list ul li {
+      width: 234px;
+      height: 340px;
+      text-align: center;
+      border-top: 1px solid gold;
+      float: left;
+      background-color: white;
+      margin: 0 7px; }
+      .good-list ul li img {
+        margin: auto;
+        margin-top: 20px;
+        width: 200px;
+        height: 200px; }
+      .good-list ul li span {
+        color: #202020;
+        width: 182px;
+        height: 20px;
+        font-size: 16px;
+        display: block;
+        overflow: hidden;
+        margin: auto;
+        text-overflow: ellipsis;
+        word-break: keep-all;
+        white-space: nowrap; }
+      .good-list ul li i {
+        padding-top: 10px;
+        padding-bottom: 20px;
+        display: block;
+        margin: auto;
+        color: #adadad; }
+      .good-list ul li b {
+        color: #fa6509; }
+        .good-list ul li b s {
+          color: #adadad; }
+
+.top-ad {
+  width: 1226px;
+  height: 120px;
+  margin: 22px 0; }
+  .top-ad img {
+    width: 100%;
+    height: 100%; }
+
+.phone-kind {
+  width: 100%;
+  position: relative;
+  margin-bottom: 36px; }
+  .phone-kind h2 {
+    line-height: 62px;
+    font-size: 22px;
+    font-family: "宋体";
+    float: left;
+    clear: both; }
+
+.more-btns {
+  float: right;
+  font-size: 0;
+  margin-top: 28px;
+  margin-bottom: 12px; }
+  .more-btns a {
+    font-size: 16px;
+    color: #424242; }
+    .more-btns a span {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      padding-left: 3px;
+      line-height: 20px;
+      color: #ffffff;
+      font-size: 12px;
+      border-radius: 50%;
+      background-color: #b0b0b0; }
+    .more-btns a:hover {
+      color: #fa6509; }
+      .more-btns a:hover span {
+        background-color: #fa6509; }
+
+.left-ad {
+  float: left;
+  width: 234px;
+  clear: both; }
+  .left-ad:hover {
+    position: relative;
+    box-shadow: 0px 10px 30px 5px #e0e0e0;
+    top: -5px; }
+
+.phone-list {
+  width: 980px;
+  height: 614px;
+  position: absolute;
+  right: 0px;
+  top: 62px; }
+  .phone-list ul {
+    position: absolute;
+    left: -7px;
+    top: -7px;
+    width: 992px; }
+    .phone-list ul li {
+      width: 234px;
+      height: 300px;
+      text-align: center;
+      float: left;
+      background-color: white;
+      margin: 7px;
+      position: relative; }
+      .phone-list ul li:hover {
+        box-shadow: 0px 10px 30px 5px #e0e0e0;
+        top: -5px; }
+      .phone-list ul li img {
+        margin: auto;
+        margin-top: 0px;
+        width: 185px;
+        height: 185px; }
+      .phone-list ul li span {
+        color: #202020;
+        width: 182px;
+        height: 20px;
+        font-size: 14px;
+        display: block;
+        overflow: hidden;
+        margin: auto;
+        text-overflow: ellipsis;
+        word-break: keep-all;
+        white-space: nowrap; }
+      .phone-list ul li i {
+        padding-top: 8px;
+        padding-bottom: 20px;
+        display: block;
+        margin: auto;
+        color: #adadad;
+        font-size: 12px; }
+      .phone-list ul li b {
+        color: #fa6509;
+        font-size: 11px; }
+        .phone-list ul li b s {
+          color: #adadad; }
+
+.goods-wrap {
+  width: 100%;
+  height: 833px; }
+
+.good-kind-ad {
+  width: 1226px;
+  height: 120px;
+  margin: 20px 0; }
+  .good-kind-ad img {
+    width: 100%;
+    height: 100%; }
+
+.good-kind-rub {
+  width: 100%;
+  position: relative;
+  margin-bottom: 36px;
+  clear: both; }
+  .good-kind-rub h2 {
+    line-height: 62px;
+    font-size: 22px;
+    font-family: "宋体";
+    float: left;
+    clear: both; }
+
+.good-more-btns {
+  float: right;
+  margin-top: 28px;
+  margin-bottom: 12px; }
+  .good-more-btns .btn-active {
+    color: #ff6700;
+    border-bottom: 2px solid #ff6700; }
+  .good-more-btns span {
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 30px;
+    padding-bottom: 3px;
+    line-height: 20px;
+    color: #363636;
+    font-size: 16px; }
+
+.good-left-ad {
+  float: left;
+  width: 234px;
+  clear: both;
+  height: 614px;
+  position: absolute;
+  top: 60px; }
+  .good-left-ad ul {
+    width: 100%;
+    float: left; }
+    .good-left-ad ul li {
+      position: absolute; }
+      .good-left-ad ul li:first-child {
+        top: 0; }
+        .good-left-ad ul li:first-child:hover {
+          position: relative;
+          box-shadow: 0px 10px 30px 5px #e0e0e0;
+          top: -5px; }
+      .good-left-ad ul li:last-child {
+        top: 314px; }
+        .good-left-ad ul li:last-child:hover {
+          position: relative;
+          box-shadow: 0px 10px 30px 5px #e0e0e0;
+          top: 309px; }
+
+.good-more-list {
+  width: 980px;
+  height: 614px;
+  position: absolute;
+  right: 0px;
+  top: 62px; }
+  .good-more-list .goods-show {
+    display: block; }
+  .good-more-list .goods-hide {
+    display: none; }
+  .good-more-list ul {
+    position: absolute;
+    left: -7px;
+    top: -7px;
+    width: 992px; }
+    .good-more-list ul .last-childs {
+      width: 234px;
+      height: 144px;
+      position: relative;
+      text-align: left; }
+      .good-more-list ul .last-childs img {
+        width: 100px;
+        height: 100px;
+        position: absolute;
+        top: 20px;
+        right: 20px; }
+      .good-more-list ul .last-childs span {
+        position: absolute;
+        top: 40px;
+        left: 30px;
+        width: 100px; }
+      .good-more-list ul .last-childs b {
+        position: absolute;
+        left: 30px;
+        bottom: 50px; }
+      .good-more-list ul .last-childs p {
+        font-size: 18px;
+        position: absolute;
+        top: 40px;
+        left: 30px;
+        width: 200px; }
+      .good-more-list ul .last-childs em {
+        color: #757575;
+        position: absolute;
+        left: 30px;
+        bottom: 50px; }
+    .good-more-list ul li {
+      width: 234px;
+      height: 300px;
+      text-align: center;
+      float: left;
+      background-color: white;
+      margin: 7px;
+      position: relative; }
+      .good-more-list ul li:hover {
+        box-shadow: 0px 10px 30px 5px #e0e0e0;
+        top: -5px; }
+      .good-more-list ul li img {
+        margin: auto;
+        margin-top: 0px;
+        width: 185px;
+        height: 185px; }
+      .good-more-list ul li span {
+        color: #202020;
+        width: 182px;
+        height: 20px;
+        font-size: 14px;
+        display: block;
+        overflow: hidden;
+        margin: auto;
+        text-overflow: ellipsis;
+        word-break: keep-all;
+        white-space: nowrap; }
+      .good-more-list ul li i {
+        padding-top: 8px;
+        padding-bottom: 20px;
+        display: block;
+        margin: auto;
+        color: #adadad;
+        font-size: 12px; }
+      .good-more-list ul li b {
+        color: #fa6509;
+        font-size: 11px; }
+        .good-more-list ul li b s {
+          color: #adadad; }

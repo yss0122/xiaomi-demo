@@ -1,0 +1,70 @@
+body {
+  background-color: #f9f9f9; }
+
+.wrap {
+  width: 852px;
+  height: 550px;
+  background-color: white;
+  margin: 150px auto;
+  position: relative; }
+
+.logo {
+  width: 50px;
+  height: 50px;
+  margin: auto; }
+  .logo img {
+    width: 100%;
+    height: 100%; }
+
+.title {
+  height: 30px;
+  width: 100%;
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  color: #333333;
+  margin-top: 46px; }
+
+.main {
+  width: 100%;
+  margin-top: 46px; }
+
+.regbox {
+  width: 332px;
+  margin: auto; }
+  .regbox input {
+    display: block;
+    width: 100%;
+    height: 42px;
+    border: 1px solid #e0e0e0;
+    margin: auto;
+    text-indent: 10px;
+    margin-bottom: 15px; }
+
+.reminder {
+  width: 100%;
+  height: 20px;
+  margin: -10px 0 5px 0px;
+  color: red;
+  display: none; }
+
+.register {
+  width: 100%;
+  height: 42px;
+  margin: auto;
+  background-color: #ff6700;
+  color: white;
+  text-align: center;
+  line-height: 42px; }
+
+.login-btn {
+  text-align: right;
+  margin-top: 5px; }
+
+.privacy-box {
+  position: absolute;
+  bottom: 40px;
+  width: 100%;
+  text-align: center; }
+  .privacy-box span {
+    font-weight: 900; }

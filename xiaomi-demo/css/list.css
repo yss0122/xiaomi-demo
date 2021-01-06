@@ -1,0 +1,116 @@
+.goods-kinds {
+  width: 100%;
+  margin-top: 20px; }
+  .goods-kinds li .good-text {
+    width: 100%;
+    height: 42px;
+    line-height: 42px;
+    text-indent: 28px;
+    font-size: 14px;
+    color: black;
+    position: relative;
+    cursor: pointer; }
+    .goods-kinds li .good-text span {
+      font-size: 13px;
+      position: absolute;
+      right: 24px; }
+    .goods-kinds li .good-text:hover {
+      color: white; }
+
+.banner-list {
+  height: 620px;
+  width: 7680px;
+  overflow: hidden;
+  position: relative; }
+  .banner-list li {
+    width: 2560px;
+    float: left;
+    height: 100%; }
+    .banner-list li img {
+      height: 100%;
+      margin-left: -1580px;
+      position: relative;
+      left: 50%; }
+
+.list-goods {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 3000px;
+  position: relative; }
+
+.star-produce h2 {
+  height: 68px;
+  line-height: 68px;
+  font-size: 24px;
+  color: #333333; }
+
+.star-produce-list {
+  width: 100%; }
+  .star-produce-list .big-star-produce-list {
+    width: 100%;
+    height: 434px; }
+    .star-produce-list .big-star-produce-list img {
+      width: 854px;
+      height: 100%; }
+    .star-produce-list .big-star-produce-list h3 {
+      position: absolute;
+      top: 88px;
+      left: 918px; }
+    .star-produce-list .big-star-produce-list i {
+      position: absolute;
+      top: 138px;
+      left: 918px; }
+    .star-produce-list .big-star-produce-list p {
+      position: absolute;
+      left: 918px;
+      top: 206px; }
+    .star-produce-list .big-star-produce-list b {
+      font-size: 14px;
+      color: #707070;
+      position: absolute;
+      bottom: 66px;
+      left: 918px;
+      display: inline-block; }
+  .star-produce-list li {
+    width: 606px;
+    height: 482px;
+    background-color: white;
+    float: left;
+    position: relative;
+    margin-bottom: 14px; }
+    .star-produce-list li:nth-child(2n) {
+      margin-right: 14px; }
+    .star-produce-list li:hover {
+      box-shadow: 0px 10px 30px 5px #e0e0e0;
+      top: -5px; }
+    .star-produce-list li img {
+      width: 100%;
+      height: 358px; }
+    .star-produce-list li h3 {
+      font-size: 26px;
+      color: #333333;
+      position: absolute;
+      bottom: 60px;
+      left: 48px; }
+    .star-produce-list li i {
+      font-size: 14px;
+      color: #707070;
+      padding: 0;
+      position: absolute;
+      bottom: 38px;
+      left: 48px; }
+    .star-produce-list li p {
+      font-size: 12px;
+      color: #ff6700;
+      position: absolute;
+      right: 48px;
+      bottom: 40px; }
+      .star-produce-list li p strong {
+        font-size: 22px; }
+      .star-produce-list li p em {
+        display: inline-block;
+        margin: 0 0 0 -3px; }
+      .star-produce-list li p del {
+        color: #707070; }
+    .star-produce-list li b {
+      display: none; }

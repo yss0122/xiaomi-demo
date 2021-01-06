@@ -1,0 +1,267 @@
+.top-menu {
+  width: 100%;
+  height: 40px;
+  background-color: #333333; }
+  .top-menu .menu {
+    font-size: 10px;
+    height: 100%; }
+    .top-menu .menu a {
+      color: #b0b0b0;
+      height: 15px;
+      display: block;
+      position: relative;
+      top: 12px;
+      float: left;
+      padding-right: 8px;
+      margin-right: 8px;
+      border-right: 1px solid #423c37; }
+      .top-menu .menu a:last-child {
+        border-right: none; }
+      .top-menu .menu a:hover {
+        color: white; }
+    .top-menu .menu .menu-r {
+      height: 100%;
+      width: 120px;
+      background-color: #424242;
+      text-align: center;
+      line-height: 40px;
+      font-size: 14px;
+      color: #b0b0b0;
+      position: relative; }
+      .top-menu .menu .menu-r span {
+        font-size: 18px; }
+      .top-menu .menu .menu-r .menu-r-scBox {
+        width: 316px;
+        height: 100px;
+        background-color: white;
+        box-shadow: 0 2px 10px 2px #e4dede;
+        position: absolute;
+        right: 0;
+        top: -60px;
+        transition: .5s;
+        z-index: -1; }
+      .top-menu .menu .menu-r:hover {
+        color: #ff6700;
+        background-color: white; }
+        .top-menu .menu .menu-r:hover .menu-r-scBox {
+          transform: translateY(100px); }
+
+.logo {
+  width: 100%;
+  height: 100px;
+  position: relative;
+  z-index: 3; }
+
+.logo-mi {
+  width: 55px;
+  height: 55px;
+  background-color: #ff6700;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  overflow: hidden; }
+  .logo-mi img {
+    float: left;
+    transition: .5s;
+    position: absolute;
+    top: 4px;
+    left: 3px; }
+  .logo-mi img:last-child {
+    position: absolute;
+    left: -55px; }
+  .logo-mi:hover img:first-child {
+    transform: translateX(55px); }
+  .logo-mi:hover img:last-child {
+    transform: translateX(57px); }
+
+.more-goods {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 122px;
+  font-size: 16px;
+  height: 100px;
+  line-height: 100px; }
+
+.goods-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 232px;
+  font-size: 16px;
+  color: #333333;
+  height: 100px;
+  line-height: 100px; }
+  .goods-nav .good-nav-child {
+    float: left;
+    padding: 0 10px; }
+
+.slide-up {
+  height: 0; }
+
+.slide-down {
+  height: 229px; }
+
+.goods-items {
+  height: 229px;
+  width: 1920px;
+  border-top: 1px solid #e0e0e0;
+  position: absolute;
+  background-color: white;
+  top: 100px;
+  left: -573px;
+  box-shadow: 0px 7px 10px -5px #cacaca;
+  z-index: 4;
+  display: none; }
+  .goods-items ul {
+    height: 115px;
+    margin-top: 35px; }
+    .goods-items ul li {
+      width: 204px;
+      height: 100%;
+      float: left;
+      border-right: 1px solid #cacaca;
+      text-align: center;
+      font-size: 12px; }
+      .goods-items ul li:last-child {
+        border: none; }
+      .goods-items ul li img {
+        width: 120px;
+        height: 120px;
+        margin: 5px auto; }
+      .goods-items ul li p {
+        color: #363636;
+        line-height: 20px; }
+      .goods-items ul li i {
+        color: #ff6700;
+        line-height: 20px;
+        display: block; }
+
+.goods-search {
+  height: 50px;
+  width: 296px;
+  position: relative;
+  top: 25px; }
+  .goods-search:hover .search-input {
+    border: 1px solid #adadad; }
+  .goods-search:hover p {
+    border: 1px solid #adadad; }
+  .goods-search .search-input {
+    width: 245px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    left: 0;
+    text-indent: 10px; }
+  .goods-search p {
+    width: 52px;
+    height: 50px;
+    border: 1px solid #e0e0e0;
+    position: absolute;
+    right: 0;
+    color: #616161;
+    line-height: 50px;
+    text-align: center; }
+    .goods-search p:hover {
+      background-color: #ff6700;
+      color: white;
+      border: none; }
+    .goods-search p span {
+      font-size: 25px; }
+  .goods-search .search-select {
+    width: 245px;
+    height: 242px;
+    position: absolute;
+    top: 49px;
+    left: 0;
+    background-color: white;
+    display: none;
+    overflow: hidden; }
+    .goods-search .search-select li {
+      height: 30px;
+      width: 100%;
+      text-indent: 14px;
+      line-height: 30px;
+      font-size: 14px; }
+      .goods-search .search-select li:hover {
+        background-color: #e0e0e0; }
+
+.goods-box {
+  width: 234px;
+  height: 100%;
+  background-color: rgba(48, 49, 49, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  float: left;
+  z-index: 2; }
+
+.goods-list {
+  height: 460px;
+  position: absolute;
+  top: 0;
+  left: 234px;
+  background-color: white;
+  box-shadow: 0px 7px 10px -5px #cacaca;
+  z-index: 3;
+  display: none; }
+
+.good-list-col {
+  height: 100%;
+  float: left; }
+  .good-list-col li {
+    width: 247px;
+    height: 76px;
+    line-height: 76px;
+    cursor: pointer; }
+    .good-list-col li img {
+      width: 50px;
+      height: 50px;
+      float: left;
+      margin: 12px; }
+    .good-list-col li span {
+      float: left;
+      font-size: small; }
+
+.right-menu {
+  width: 82px;
+  position: fixed;
+  right: 0;
+  bottom: 100px;
+  z-index: 20; }
+  .right-menu li {
+    width: 82px;
+    height: 90px;
+    margin-top: 1px;
+    background-color: white;
+    border: 1px solid #f5f5f5;
+    text-align: center;
+    color: #999999; }
+    .right-menu li:hover {
+      color: #ff6700; }
+    .right-menu li span {
+      display: block;
+      margin-top: 20px;
+      font-size: 30px; }
+
+@media all and (max-width: 1500px) {
+  .right-menu {
+    width: 82px;
+    position: fixed;
+    bottom: 100px;
+    z-index: 20;
+    right: -56px; }
+    .right-menu li {
+      width: 25px;
+      height: 40px;
+      margin-top: 1px;
+      background-color: white;
+      border: 1px solid #f5f5f5;
+      text-align: center;
+      color: #999999; }
+      .right-menu li span {
+        display: block;
+        margin-top: 10px;
+        font-size: 20px; }
+      .right-menu li i {
+        display: none; } }
